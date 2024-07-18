@@ -19,7 +19,7 @@ import { PREDEFINED_DATE_RANGES } from "../config/constants"
 import { IconCalendar } from "@tabler/icons-react";
 import { toast } from "sonner";
 
-export function DateSelector({
+function DateSelector({
   defaultRange = PREDEFINED_DATE_RANGES.today,
   startDate, endDate, setStartDate, setEndDate, disabled = false, dateTime = new Date()
 }) {
@@ -236,3 +236,5 @@ export function DateSelector({
     </div>
   )
 }
+
+export default DateSelector

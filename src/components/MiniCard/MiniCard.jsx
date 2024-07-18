@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import './MiniCard.css'
 
-export default function MiniCard({
+function MiniCard({
   icon, title, data, color
 }) {
   const [size, setSize] = useState(1)
@@ -30,3 +30,5 @@ export default function MiniCard({
     </article>
   )
 }
+
+export default MiniCard

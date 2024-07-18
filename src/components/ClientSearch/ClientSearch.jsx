@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/select"
 import { useEffect, useState } from "react"
 
-export default function ClientSearch({ getClient, setClientData, searchText, setSearchText }) {
+function ClientSearch({ getClient, setClientData, searchText, setSearchText }) {
   const SEARCH_BY = {
     username: 'username',
     digitainClientId: 'digitainClientId'
@@ -80,3 +80,5 @@ export default function ClientSearch({ getClient, setClientData, searchText, set
     </div>
   )
 }
+
+export default ClientSearch

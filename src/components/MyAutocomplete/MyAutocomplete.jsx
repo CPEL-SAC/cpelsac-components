@@ -5,7 +5,7 @@ import algoliasearch from "algoliasearch/lite"
 
 let timeoutId = null
 
-export default function MyAutocomplete({
+function MyAutocomplete({
   value,
   setValue,
   setID,
@@ -129,3 +129,5 @@ export default function MyAutocomplete({
     </div>
   );
 }
+
+export default MyAutocomplete
