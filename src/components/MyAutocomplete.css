@@ -1,0 +1,40 @@
+/* .my-autocomplete {
+  position: relative;
+  width: 100%;
+  font-size: 0.9rem;
+} */
+/* .list-group {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  margin-top: .3rem;
+  overflow: hidden;
+} */
+/* ul:last-child {
+  border-bottom: none;
+} */
+/* .list-group-item {
+  padding-block: 8px;
+  padding-inline: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: white;
+} */
+/* .list-group-item:hover {
+  cursor: pointer;
+  background-color: #57acda;
+  color: white;
+} */
+/* .suggestion-active {
+  cursor: pointer;
+  background-color: #2a85b6;
+  color: white;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  .form-control {
+    background: black;
+  }
+} */
